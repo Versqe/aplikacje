@@ -1,3 +1,4 @@
+WYSZUKIWANIE ADRESU EMAIL
 <?php
     $wzorzec = '/[-\w.]+@([-A-z0-9]+\.)+[A-z]/';
     $tekst = "nazwa.maila@gmail.com";

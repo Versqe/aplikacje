@@ -1,3 +1,4 @@
+WYSZUKIWANIE ADRESU WWW
 <?php
     $wzorzec = '/((\bhttps?:\/\/)|(\bwww\.))\S*/';
     $tekst = "www.google.pl";

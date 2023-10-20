@@ -1,3 +1,5 @@
+--TWORZENIE OBIEKTU--
+
 <?php
 class Fruit {
     public $name;
@@ -19,4 +21,23 @@ $banana->set_name('Banana');
 echo $apple->get_name();
 echo "<br>";
 echo $banana->get_name();
+?>
+
+--KONSTRUKTOR--
+
+<?php
+class Fruit {
+    public $name;
+    public $color;
+
+    function __construct($name){
+        $this->name = $name;
+    }
+    function get_name() {
+        return $this->name;
+    }
+}
+
+$apple = new Fruit("Apple");
+echo $apple->get_name();
 ?>

@@ -1,5 +1,4 @@
---TWORZENIE OBIEKTU--
-
+TWORZENIE OBIEKTU
 <?php
 class Fruit {
     public $name;
@@ -23,8 +22,7 @@ echo "<br>";
 echo $banana->get_name();
 ?>
 
---KONSTRUKTOR--
-
+KONSTRUKTOR
 <?php
 class Fruit {
     public $name;
